@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 36px;
+
+}
+
+.button-left {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    Width: 124px;
+    Height: 51px;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+img {
+    margin: 163px 0px 0px 121px;
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    width: 493px;
+    margin-left: 84px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-low {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background: transparent;
+
+}
+
+@media screen and (max-width: 700px) {    
+
+
+.link {
+    display: none;
+}
+
+.button-left {
+    margin-left: 291px;
+    margin-bottom: 35px;
+    display: block;
+}
+
+img {
+    position: absolute;
+    width: 312px;
+    height: 288px;
+    margin-top: 80%;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 278px;
+    height: 60px;
+    margin-left: inherit
+}
+
+p {
+    margin: 29px 43px 0 43px;
+    text-align: center;
+    width: 304px;
+    height: 165px;
+
+}
+
+.button-low {
+    display: block;
+    margin: 25px 139px 0 139px;
+    font-weight: 500;
+}
+
+}
